@@ -88,8 +88,8 @@ a:hover {
     padding-top: 5rem;
 }
 
-@media (min-width: 30rem) {
+@media (max-width: 30rem) {
   .bar {
-    width: 70%;
+    width: 90%;
   }
 }
