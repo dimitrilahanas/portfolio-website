@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+* {
+    font-family: "Oxygen", sans-serif;
+    
+}
+
+body {
+    letter-spacing: 1px;
+}
+
+section {
+    min-height: 100vh;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    padding-top: 3rem;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    justify-content: center;
+
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px; 
+    border-color: #D3D3D3;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem 1rem;
+    transition: color 0.2s ease;
+
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+nav ul li:not(:last-child) {
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: #D3D3D3;
+    
+}
+
+a:hover {
+    color: #FFD9C7;
+}
+
+.hero {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.pfp {
+    border-radius: 100%;
+    width: 10rem;
+}
+
+.hero h3 {
+    padding-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.hero h1 {
+    text-align: center;
+}
+
+.bar {
+    width: 50%;
+}
+
+.about {
+    padding-top: 5rem;
+}
