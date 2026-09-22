@@ -87,3 +87,9 @@ a:hover {
 .about {
     padding-top: 5rem;
 }
+
+@media (min-width: 30rem) {
+  .bar {
+    width: 70%;
+  }
+}
