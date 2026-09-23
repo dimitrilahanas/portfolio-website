@@ -127,6 +127,7 @@ a:hover {
 .project1-info img {
     width: 80%;
     object-fit: cover;
+    border-radius: 11px;
 }
 
 .readme1 {
@@ -143,6 +144,22 @@ a:hover {
     border-bottom-style: solid;
     border-width: 1px;
     border-color: #D3D3D3;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.socials {
+    font-size: 2rem;
+}
+
+.socials a {
+    color: black;
+    text-decoration: none;
 }
 
 @media (max-width: 30rem) {
