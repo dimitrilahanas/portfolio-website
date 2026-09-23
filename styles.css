@@ -114,4 +114,12 @@ a:hover {
   .bar {
     width: 90%;
   }
+
+  .photos-me {
+    flex-direction: column;
+  }
+
+  .photos-me img {
+    width: 100%;
+  }
 }
