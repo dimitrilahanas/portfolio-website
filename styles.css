@@ -160,6 +160,11 @@ footer {
 .socials a {
     color: black;
     text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.socials a:hover {
+    color: #FFD9C7;
 }
 
 @media (max-width: 30rem) {
