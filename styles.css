@@ -104,6 +104,12 @@ a:hover {
     gap: 1rem;
 }
 
+.photos-me img {
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+}
+
 @media (max-width: 30rem) {
   .bar {
     width: 90%;
